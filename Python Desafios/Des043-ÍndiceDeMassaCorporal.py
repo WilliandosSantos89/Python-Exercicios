@@ -1,5 +1,5 @@
-peso = float(input("Informe seu peso: "))
-altura = float(input("Informe sua altura: "))
+peso = float(input("Informe seu peso (kg): "))
+altura = float(input("Informe sua altura (m): "))
 imc = peso / (altura * altura)
 
 if imc > 18.5 and imc < 24.9:
