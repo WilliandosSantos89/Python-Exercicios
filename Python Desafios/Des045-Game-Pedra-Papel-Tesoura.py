@@ -1,5 +1,5 @@
 import random
-
+import time
 
 
 opções = ['Pedra', 'Papel', 'Tesoura']
@@ -12,9 +12,13 @@ print('''Faça sua jogada:
 
 jogador = int(input("Qual é a sua jogada? "))
 
-print("JO")
-print("KEN")
-print("PÔ!!!")
+print("PEDRA \U0001F91C") 
+time.sleep(1.5)
+
+print("PAPEL \U0001270B")
+time.sleep(1.5)
+
+print("TESOURA \U0001FE0F")
 
 print('***---***'*5)
 
@@ -29,13 +33,11 @@ if computador == 0: #computador Pedra
     print("Empate!")
 
   elif jogador == 1:
-    print("Jogado Vence!")
+    print("Jogador Vence!")
 
   elif jogador == 2:
     print("Computador Vence!")
 
-  else:
-    print("Joada Errada")
 
 elif computador == 1: #computador Papel
 
@@ -48,8 +50,6 @@ elif computador == 1: #computador Papel
   elif jogador == 2:
     print("Jogador Vence!")
 
-  else: 
-    print("Joada Errada")
 
 elif computador == 2: #computador Tesoura
   if jogador == 0:
@@ -61,7 +61,8 @@ elif computador == 2: #computador Tesoura
   elif jogador == 2:
     print("Empate!")
 
-  else: 
-    print("Joada Errada")
+
+else: 
+    print("Jogada Errada")
 
   
