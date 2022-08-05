@@ -1,5 +1,3 @@
-from click import pass_obj
-
 
 print(">>> Laços <<<")
 
@@ -14,9 +12,19 @@ print(">>> Laços <<<")
 #for c in range (0, n-1):
 #  print(c)
 
-início = int(input("Início: "))
-fim = int(input("fim: "))
-passo = int(input("passo: "))
-for c in range (início, fim+1, passo):
-    print(c)
-print("fim")
+#início = int(input("Início: "))
+#fim = int(input("fim: "))
+#passo = int(input("passo: "))
+#for c in range (início, fim+1, passo):
+#    print(c)
+#print("fim")
+
+#for c in range (0,3):
+ # n = int(input("Digite um número: "))
+#print('Fim')
+
+soma = 0
+for c in range (0,2):
+  n = int(input("Digite um número: "))
+  soma += n
+print("A soma dos número é: {}".format(soma))
