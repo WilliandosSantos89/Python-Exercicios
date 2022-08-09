@@ -1,5 +1,5 @@
 print('Desafio 006')
-print('Conversor de Moedas')
+print('Conversor de Moedasss')
 real = float(input('Quanto de dinheiro você tem na cartera? R$'))
 dolar = real / 5.39
 euro = real / 6.11

@@ -1,5 +1,5 @@
 print('Desafio 011')
-print('>>> Aluguel de carros <<<')
+print('>>> Aluguel de Carros <<<')
 
 dias = int(input('Quantos dias ficou com o carro? '))
 km = float(input('Quantos km foram rodados? '))
