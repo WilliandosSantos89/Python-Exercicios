@@ -23,8 +23,8 @@ print(">>> Laços <<<")
  # n = int(input("Digite um número: "))
 #print('Fim')
 
-soma = 0
-for c in range (0,2):
-  n = int(input("Digite um número: "))
-  soma += n
-print("A soma dos número é: {}".format(soma))
+#soma = 0
+#for c in range (0,2):
+ # n = int(input("Digite um número: "))
+  #soma += n
+#print("A soma dos número é: {}".format(soma))
