@@ -4,7 +4,7 @@ print('=== Tipos Primitivos ===')
 #print('int: números inteiros;')
 #print('float: números flutuantes;')
 #print('boll: lógicos ou boleanos;')
-#print('srt: caracteres ou instrings.')
+#print('str: caracteres ou instrings.')
 
 n1 = int(input('Digite um número:'))
 n2 = int(input('Digite ou número:'))
