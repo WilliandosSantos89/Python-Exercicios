@@ -13,7 +13,7 @@ print('-=-' * 20)
 
 print('-=-' * 20)
 
-jogador = int(input('Em que número eu pensei?')) #Jogador tentando adivinha
+jogador = int(input('Em que número eu pensei?')) #Jogador tentando adivinhar
 
 print('Processando...')
 sleep(3)
