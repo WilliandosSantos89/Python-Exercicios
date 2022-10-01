@@ -25,3 +25,5 @@ while not acertou:
             print('Menos...')
 
 print("Acertou na {}ª tentativa!".format(palpites))
+
+finalização
